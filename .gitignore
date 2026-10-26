@@ -1,0 +1,54 @@
+# Binaries
+*.exe
+*.dll
+*.lib
+*.obj
+*.o
+*.a
+*.so
+*.dylib
+
+# Build directories
+build/
+cmake-build-*/
+.cache/
+CMakeFiles/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.log
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Payload (generated during build)
+bin/
+payload/
+
+# Cache
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
